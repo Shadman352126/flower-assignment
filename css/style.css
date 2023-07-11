@@ -1,4 +1,43 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eea9b9;
+  width: 1920px;
+  height: 850px;
+}
+.header-text {
+  width: 708px;
+  height: 506px;
+  text-align: left;
+}
+.header-text h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  width: 708px;
+  height: 288px;
+  line-height: auto;
+}
+.header-text p {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 20px 0px;
+}
+.header-text button {
+  padding: 15px 25px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background: #e55473;
+}
+.header-image {
+  width: 635px;
+  height: 800px;
+  margin: 20px 20px 0px 20px;
+  padding: 0px;
 }
