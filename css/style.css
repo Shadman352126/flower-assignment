@@ -10,6 +10,7 @@
   background-color: #eea9b9;
   width: 1920px;
   height: 850px;
+  margin-bottom: 50px;
 }
 .header-text {
   width: 708px;
@@ -40,4 +41,23 @@
   height: 800px;
   margin: 20px 20px 0px 20px;
   padding: 0px;
+}
+.feature {
+  color: #272727;
+  text-align: center;
+  margin: 40px 0px;
+}
+.feature h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 20px 0px;
+}
+.feature p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
