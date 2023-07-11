@@ -3,6 +3,35 @@
   margin: 0px;
   font-family: "Lato", sans-serif;
 }
+.menu-container {
+  width: 100%;
+  background-color: #e44e71;
+  padding: 20px;
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+}
+.menu {
+  display: flex;
+}
+.logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.item {
+  margin-right: 10px;
+  padding-right: 7px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.item:hover {
+  color: #a71033;
+}
 .header {
   display: flex;
   justify-content: space-around;
@@ -37,9 +66,10 @@ button {
   background: #e55473;
 }
 .header-image {
-  width: 635px;
-  height: 800px;
-  margin-top: 20px;
+  margin-top: 174px;
+}
+.header-image img {
+  height: 650px;
 }
 .feature {
   color: #272727;
@@ -141,6 +171,13 @@ button {
   font-weight: 600;
   line-height: 35px;
 }
+.social-pic {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  justify-content: center;
+  align-items: end;
+}
 .login {
   display: flex;
   justify-content: space-around;
@@ -157,11 +194,36 @@ button {
   height: 396px;
   padding-right: 20px;
 }
+.pic1 {
+  width: 342px;
+  height: 396px;
+}
 .foot {
   background-color: #000;
-  margin: 200px auto 0;
+  margin: 130px auto 0;
   text-align: center;
   width: 100%;
   color: #fff;
   padding: 100px 0px;
+}
+.foot h2 {
+  padding: 20px 0px 10px;
+}
+.foot p {
+  padding: 10px 0px 20px;
+}
+.sub-main {
+  background: url("../images/Rectangle 9.png");
+  margin: 100px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.sub input {
+  padding: 13px 130px 13px 23px;
+  border-radius: 5px;
+}
+.sub-box {
+  display: flex;
+  justify-content: center;
 }
